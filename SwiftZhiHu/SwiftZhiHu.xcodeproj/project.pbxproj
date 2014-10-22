@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		790B9AC019F7A5D200CE9ADF /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790B9ABF19F7A5D200CE9ADF /* RootViewController.swift */; };
+		790B9AC219F7A7D900CE9ADF /* RootTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790B9AC119F7A7D900CE9ADF /* RootTableViewCell.swift */; };
+		7975B49419F5F47200A9A94E /* ZNHttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7975B49319F5F47200A9A94E /* ZNHttpRequest.swift */; };
+		7975B49919F6025B00A9A94E /* ZNHUDProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7975B49819F6025B00A9A94E /* ZNHUDProgress.swift */; };
 		79A6419219F4E83200D498F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A6419119F4E83200D498F0 /* AppDelegate.swift */; };
-		79A6419419F4E83200D498F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A6419319F4E83200D498F0 /* ViewController.swift */; };
 		79A6419719F4E83200D498F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79A6419519F4E83200D498F0 /* Main.storyboard */; };
 		79A6419919F4E83200D498F0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79A6419819F4E83200D498F0 /* Images.xcassets */; };
 		79A6419C19F4E83200D498F0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79A6419A19F4E83200D498F0 /* LaunchScreen.xib */; };
 		79A641A819F4E83200D498F0 /* SwiftZhiHuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A641A719F4E83200D498F0 /* SwiftZhiHuTests.swift */; };
+		79A7253619F7AC4100B22438 /* StoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A7253519F7AC4100B22438 /* StoryModel.swift */; };
+		79F3058319F7879500064954 /* ZhiHuRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F3058219F7879500064954 /* ZhiHuRequest.swift */; };
+		79F3058519F78E9500064954 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F3058419F78E9500064954 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +32,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		790B9ABF19F7A5D200CE9ADF /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		790B9AC119F7A7D900CE9ADF /* RootTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootTableViewCell.swift; sourceTree = "<group>"; };
+		7975B49319F5F47200A9A94E /* ZNHttpRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNHttpRequest.swift; sourceTree = "<group>"; };
+		7975B49819F6025B00A9A94E /* ZNHUDProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNHUDProgress.swift; sourceTree = "<group>"; };
 		79A6418C19F4E83200D498F0 /* SwiftZhiHu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftZhiHu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79A6419019F4E83200D498F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79A6419119F4E83200D498F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		79A6419319F4E83200D498F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		79A6419619F4E83200D498F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		79A6419819F4E83200D498F0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		79A6419B19F4E83200D498F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		79A641A119F4E83200D498F0 /* SwiftZhiHuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftZhiHuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79A641A619F4E83200D498F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79A641A719F4E83200D498F0 /* SwiftZhiHuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftZhiHuTests.swift; sourceTree = "<group>"; };
+		79A7253519F7AC4100B22438 /* StoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryModel.swift; sourceTree = "<group>"; };
+		79F3058219F7879500064954 /* ZhiHuRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZhiHuRequest.swift; sourceTree = "<group>"; };
+		79F3058419F78E9500064954 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7975B49219F5F43400A9A94E /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				7975B49319F5F47200A9A94E /* ZNHttpRequest.swift */,
+				7975B49819F6025B00A9A94E /* ZNHUDProgress.swift */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		7975B49519F5FC1100A9A94E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				79F3058219F7879500064954 /* ZhiHuRequest.swift */,
+				79F3058419F78E9500064954 /* Constants.swift */,
+				79A7253519F7AC4100B22438 /* StoryModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		7975B49A19F632C700A9A94E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				790B9ABF19F7A5D200CE9ADF /* RootViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		7975B49F19F646A600A9A94E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				790B9AC119F7A7D900CE9ADF /* RootTableViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		79A6418319F4E83200D498F0 = {
 			isa = PBXGroup;
 			children = (
@@ -77,8 +124,11 @@
 		79A6418E19F4E83200D498F0 /* SwiftZhiHu */ = {
 			isa = PBXGroup;
 			children = (
+				7975B49F19F646A600A9A94E /* View */,
+				7975B49A19F632C700A9A94E /* Controller */,
+				7975B49519F5FC1100A9A94E /* Model */,
+				7975B49219F5F43400A9A94E /* Vendor */,
 				79A6419119F4E83200D498F0 /* AppDelegate.swift */,
-				79A6419319F4E83200D498F0 /* ViewController.swift */,
 				79A6419519F4E83200D498F0 /* Main.storyboard */,
 				79A6419819F4E83200D498F0 /* Images.xcassets */,
 				79A6419A19F4E83200D498F0 /* LaunchScreen.xib */,
@@ -212,8 +262,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79A6419419F4E83200D498F0 /* ViewController.swift in Sources */,
+				79F3058319F7879500064954 /* ZhiHuRequest.swift in Sources */,
+				790B9AC219F7A7D900CE9ADF /* RootTableViewCell.swift in Sources */,
+				7975B49419F5F47200A9A94E /* ZNHttpRequest.swift in Sources */,
+				790B9AC019F7A5D200CE9ADF /* RootViewController.swift in Sources */,
 				79A6419219F4E83200D498F0 /* AppDelegate.swift in Sources */,
+				79A7253619F7AC4100B22438 /* StoryModel.swift in Sources */,
+				7975B49919F6025B00A9A94E /* ZNHUDProgress.swift in Sources */,
+				79F3058519F78E9500064954 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +393,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwiftZhiHu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -347,6 +404,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwiftZhiHu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -405,6 +463,7 @@
 				79A641AD19F4E83200D498F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		79A641AE19F4E83200D498F0 /* Build configuration list for PBXNativeTarget "SwiftZhiHuTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +472,7 @@
 				79A641B019F4E83200D498F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
