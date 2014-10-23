@@ -11,6 +11,26 @@
 		790B9AC219F7A7D900CE9ADF /* RootTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790B9AC119F7A7D900CE9ADF /* RootTableViewCell.swift */; };
 		7975B49419F5F47200A9A94E /* ZNHttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7975B49319F5F47200A9A94E /* ZNHttpRequest.swift */; };
 		7975B49919F6025B00A9A94E /* ZNHUDProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7975B49819F6025B00A9A94E /* ZNHUDProgress.swift */; };
+		7975C33B19F8A1B700961025 /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7975C32719F8A1B700961025 /* Cache.swift */; };
+		7975C33C19F8A1B700961025 /* CGSize+Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7975C32819F8A1B700961025 /* CGSize+Swift.swift */; };
+		7975C33D19F8A1B700961025 /* CryptoSwiftMD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7975C32919F8A1B700961025 /* CryptoSwiftMD5.swift */; };
+		7975C33E19F8A1B700961025 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7975C32A19F8A1B700961025 /* Data.swift */; };
+		7975C33F19F8A1B700961025 /* DiskCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7975C32B19F8A1B700961025 /* DiskCache.swift */; };
+		7975C34019F8A1B700961025 /* DiskFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7975C32C19F8A1B700961025 /* DiskFetcher.swift */; };
+		7975C34119F8A1B700961025 /* Fetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7975C32D19F8A1B700961025 /* Fetch.swift */; };
+		7975C34219F8A1B700961025 /* Fetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7975C32E19F8A1B700961025 /* Fetcher.swift */; };
+		7975C34319F8A1B700961025 /* Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7975C32F19F8A1B700961025 /* Format.swift */; };
+		7975C34419F8A1B700961025 /* Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7975C33119F8A1B700961025 /* Haneke.swift */; };
+		7975C34619F8A1B700961025 /* NetworkFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7975C33319F8A1B700961025 /* NetworkFetcher.swift */; };
+		7975C34719F8A1B700961025 /* NSFileManager+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7975C33419F8A1B700961025 /* NSFileManager+Haneke.swift */; };
+		7975C34819F8A1B700961025 /* NSHTTPURLResponse+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7975C33519F8A1B700961025 /* NSHTTPURLResponse+Haneke.swift */; };
+		7975C34919F8A1B700961025 /* String+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7975C33619F8A1B700961025 /* String+Haneke.swift */; };
+		7975C34A19F8A1B700961025 /* UIButton+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7975C33719F8A1B700961025 /* UIButton+Haneke.swift */; };
+		7975C34B19F8A1B700961025 /* UIImage+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7975C33819F8A1B700961025 /* UIImage+Haneke.swift */; };
+		7975C34C19F8A1B700961025 /* UIImageView+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7975C33919F8A1B700961025 /* UIImageView+Haneke.swift */; };
+		7975C34D19F8A1B700961025 /* UIView+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7975C33A19F8A1B700961025 /* UIView+Haneke.swift */; };
+		7975C34F19F8CC9600961025 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7975C34E19F8CC9600961025 /* DetailViewController.swift */; };
+		7975C35119F8D1D800961025 /* StoryDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7975C35019F8D1D800961025 /* StoryDetailModel.swift */; };
 		79A6419219F4E83200D498F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A6419119F4E83200D498F0 /* AppDelegate.swift */; };
 		79A6419719F4E83200D498F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79A6419519F4E83200D498F0 /* Main.storyboard */; };
 		79A6419919F4E83200D498F0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79A6419819F4E83200D498F0 /* Images.xcassets */; };
@@ -36,6 +56,27 @@
 		790B9AC119F7A7D900CE9ADF /* RootTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootTableViewCell.swift; sourceTree = "<group>"; };
 		7975B49319F5F47200A9A94E /* ZNHttpRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNHttpRequest.swift; sourceTree = "<group>"; };
 		7975B49819F6025B00A9A94E /* ZNHUDProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNHUDProgress.swift; sourceTree = "<group>"; };
+		7975C32719F8A1B700961025 /* Cache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
+		7975C32819F8A1B700961025 /* CGSize+Swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGSize+Swift.swift"; sourceTree = "<group>"; };
+		7975C32919F8A1B700961025 /* CryptoSwiftMD5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CryptoSwiftMD5.swift; sourceTree = "<group>"; };
+		7975C32A19F8A1B700961025 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		7975C32B19F8A1B700961025 /* DiskCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiskCache.swift; sourceTree = "<group>"; };
+		7975C32C19F8A1B700961025 /* DiskFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiskFetcher.swift; sourceTree = "<group>"; };
+		7975C32D19F8A1B700961025 /* Fetch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fetch.swift; sourceTree = "<group>"; };
+		7975C32E19F8A1B700961025 /* Fetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fetcher.swift; sourceTree = "<group>"; };
+		7975C32F19F8A1B700961025 /* Format.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Format.swift; sourceTree = "<group>"; };
+		7975C33019F8A1B700961025 /* Haneke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Haneke.h; sourceTree = "<group>"; };
+		7975C33119F8A1B700961025 /* Haneke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Haneke.swift; sourceTree = "<group>"; };
+		7975C33319F8A1B700961025 /* NetworkFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkFetcher.swift; sourceTree = "<group>"; };
+		7975C33419F8A1B700961025 /* NSFileManager+Haneke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSFileManager+Haneke.swift"; sourceTree = "<group>"; };
+		7975C33519F8A1B700961025 /* NSHTTPURLResponse+Haneke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSHTTPURLResponse+Haneke.swift"; sourceTree = "<group>"; };
+		7975C33619F8A1B700961025 /* String+Haneke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Haneke.swift"; sourceTree = "<group>"; };
+		7975C33719F8A1B700961025 /* UIButton+Haneke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Haneke.swift"; sourceTree = "<group>"; };
+		7975C33819F8A1B700961025 /* UIImage+Haneke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Haneke.swift"; sourceTree = "<group>"; };
+		7975C33919F8A1B700961025 /* UIImageView+Haneke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Haneke.swift"; sourceTree = "<group>"; };
+		7975C33A19F8A1B700961025 /* UIView+Haneke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Haneke.swift"; sourceTree = "<group>"; };
+		7975C34E19F8CC9600961025 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		7975C35019F8D1D800961025 /* StoryDetailModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryDetailModel.swift; sourceTree = "<group>"; };
 		79A6418C19F4E83200D498F0 /* SwiftZhiHu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftZhiHu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79A6419019F4E83200D498F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79A6419119F4E83200D498F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +112,7 @@
 		7975B49219F5F43400A9A94E /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				7975C32619F8A1B700961025 /* Haneke */,
 				7975B49319F5F47200A9A94E /* ZNHttpRequest.swift */,
 				7975B49819F6025B00A9A94E /* ZNHUDProgress.swift */,
 			);
@@ -83,6 +125,7 @@
 				79F3058219F7879500064954 /* ZhiHuRequest.swift */,
 				79F3058419F78E9500064954 /* Constants.swift */,
 				79A7253519F7AC4100B22438 /* StoryModel.swift */,
+				7975C35019F8D1D800961025 /* StoryDetailModel.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -91,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				790B9ABF19F7A5D200CE9ADF /* RootViewController.swift */,
+				7975C34E19F8CC9600961025 /* DetailViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -101,6 +145,32 @@
 				790B9AC119F7A7D900CE9ADF /* RootTableViewCell.swift */,
 			);
 			name = View;
+			sourceTree = "<group>";
+		};
+		7975C32619F8A1B700961025 /* Haneke */ = {
+			isa = PBXGroup;
+			children = (
+				7975C32719F8A1B700961025 /* Cache.swift */,
+				7975C32819F8A1B700961025 /* CGSize+Swift.swift */,
+				7975C32919F8A1B700961025 /* CryptoSwiftMD5.swift */,
+				7975C32A19F8A1B700961025 /* Data.swift */,
+				7975C32B19F8A1B700961025 /* DiskCache.swift */,
+				7975C32C19F8A1B700961025 /* DiskFetcher.swift */,
+				7975C32D19F8A1B700961025 /* Fetch.swift */,
+				7975C32E19F8A1B700961025 /* Fetcher.swift */,
+				7975C32F19F8A1B700961025 /* Format.swift */,
+				7975C33019F8A1B700961025 /* Haneke.h */,
+				7975C33119F8A1B700961025 /* Haneke.swift */,
+				7975C33319F8A1B700961025 /* NetworkFetcher.swift */,
+				7975C33419F8A1B700961025 /* NSFileManager+Haneke.swift */,
+				7975C33519F8A1B700961025 /* NSHTTPURLResponse+Haneke.swift */,
+				7975C33619F8A1B700961025 /* String+Haneke.swift */,
+				7975C33719F8A1B700961025 /* UIButton+Haneke.swift */,
+				7975C33819F8A1B700961025 /* UIImage+Haneke.swift */,
+				7975C33919F8A1B700961025 /* UIImageView+Haneke.swift */,
+				7975C33A19F8A1B700961025 /* UIView+Haneke.swift */,
+			);
+			path = Haneke;
 			sourceTree = "<group>";
 		};
 		79A6418319F4E83200D498F0 = {
@@ -262,13 +332,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7975C34C19F8A1B700961025 /* UIImageView+Haneke.swift in Sources */,
+				7975C34919F8A1B700961025 /* String+Haneke.swift in Sources */,
+				7975C34119F8A1B700961025 /* Fetch.swift in Sources */,
 				79F3058319F7879500064954 /* ZhiHuRequest.swift in Sources */,
+				7975C33B19F8A1B700961025 /* Cache.swift in Sources */,
 				790B9AC219F7A7D900CE9ADF /* RootTableViewCell.swift in Sources */,
+				7975C34719F8A1B700961025 /* NSFileManager+Haneke.swift in Sources */,
+				7975C33D19F8A1B700961025 /* CryptoSwiftMD5.swift in Sources */,
+				7975C34B19F8A1B700961025 /* UIImage+Haneke.swift in Sources */,
+				7975C34F19F8CC9600961025 /* DetailViewController.swift in Sources */,
+				7975C34819F8A1B700961025 /* NSHTTPURLResponse+Haneke.swift in Sources */,
+				7975C34019F8A1B700961025 /* DiskFetcher.swift in Sources */,
+				7975C34619F8A1B700961025 /* NetworkFetcher.swift in Sources */,
 				7975B49419F5F47200A9A94E /* ZNHttpRequest.swift in Sources */,
 				790B9AC019F7A5D200CE9ADF /* RootViewController.swift in Sources */,
 				79A6419219F4E83200D498F0 /* AppDelegate.swift in Sources */,
+				7975C34219F8A1B700961025 /* Fetcher.swift in Sources */,
+				7975C33F19F8A1B700961025 /* DiskCache.swift in Sources */,
+				7975C35119F8D1D800961025 /* StoryDetailModel.swift in Sources */,
+				7975C33E19F8A1B700961025 /* Data.swift in Sources */,
 				79A7253619F7AC4100B22438 /* StoryModel.swift in Sources */,
+				7975C34419F8A1B700961025 /* Haneke.swift in Sources */,
+				7975C34D19F8A1B700961025 /* UIView+Haneke.swift in Sources */,
+				7975C34319F8A1B700961025 /* Format.swift in Sources */,
 				7975B49919F6025B00A9A94E /* ZNHUDProgress.swift in Sources */,
+				7975C33C19F8A1B700961025 /* CGSize+Swift.swift in Sources */,
+				7975C34A19F8A1B700961025 /* UIButton+Haneke.swift in Sources */,
 				79F3058519F78E9500064954 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

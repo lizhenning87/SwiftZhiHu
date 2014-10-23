@@ -20,7 +20,7 @@ class RootViewController: UIViewController , UITableViewDelegate , UITableViewDa
 
         // Do any additional setup after loading the view.
         
-        self.navigationItem.title = "之乎者也"
+        self.navigationItem.title = "Swift"
         arrayResult = NSMutableArray(capacity: 10)
         self.initView()
         self.loadNewsLatest()
@@ -31,14 +31,19 @@ class RootViewController: UIViewController , UITableViewDelegate , UITableViewDa
         // Dispose of any resources that can be recreated.
     }
     
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        
+    }
     
     func initView()
     {
         table = UITableView(frame: CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.height), style: UITableViewStyle.Plain)
         table?.delegate = self
         table?.dataSource = self
-        var nib = UINib(nibName: "RootTableViewCell", bundle: nil)
-        table?.registerNib(nib, forCellReuseIdentifier: cellIdentifier)
+        table?.registerClass(RootTableViewCell.classForCoder(), forCellReuseIdentifier: cellIdentifier)
+        table?.separatorStyle = UITableViewCellSeparatorStyle.None
         self.view .addSubview(table!)
         
         progressHUD = ZNHUDProgress(frame: self.view.bounds)
@@ -67,7 +72,7 @@ class RootViewController: UIViewController , UITableViewDelegate , UITableViewDa
     }
     
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
-        return 80
+        return 200
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -80,12 +85,21 @@ class RootViewController: UIViewController , UITableViewDelegate , UITableViewDa
         
         var model = self.arrayResult!.objectAtIndex(indexPath.row) as StoryModel
         
-        var cell = tableView.dequeueReusableCellWithIdentifier(cellIdentifier, forIndexPath: indexPath) as RootTableViewCell
-        
-        cell.textLabel.text = model.title
-        
+        let cell = tableView.dequeueReusableCellWithIdentifier(cellIdentifier, forIndexPath: indexPath) as RootTableViewCell
+        cell.selectionStyle = UITableViewCellSelectionStyle.None
+        cell.setModel(model)
         
         return cell
+    }
+    
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        
+        var model = self.arrayResult!.objectAtIndex(indexPath.row) as StoryModel
+        
+        var viewController = DetailViewController()
+        viewController.model = model
+        self.navigationController?.pushViewController(viewController, animated: true)
     }
     
 }

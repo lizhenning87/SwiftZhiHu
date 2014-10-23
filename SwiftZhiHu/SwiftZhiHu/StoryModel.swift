@@ -11,6 +11,7 @@ import UIKit
 class StoryModel: NSObject {
     
     var title : NSString?
-    var images : NSString?
+    var photo : NSString?
+    var storyID : NSString?
    
 }

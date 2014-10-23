@@ -14,6 +14,9 @@ enum ZNHttpState
     case ERROR
 }
 
+var colorNavigationbg : UIColor = UIColor(red: 163/255, green: 123/255, blue: 173/255, alpha: 1)
+var colorCellBg : UIColor = UIColor(red: 255/255, green: 251/255, blue: 177/255, alpha: 1)
+
 class Constants: NSObject {
    
     
